@@ -8,7 +8,6 @@
     padding: 0;
     text-decoration: none;
     color: #000000;
-    background-color: #DFF1FF;
 }
 
 .html,
@@ -357,17 +356,9 @@ small {
     color: #FFC2BC;
 }
 
-.footer{
-  display: inline-block;
-  height: 10px;
-     background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    will-change: transform;
-    transform: translateY(0%);
-    -webkit-transform: translateY(9%);
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
+.heading-2 {
+  font-size: 30pt;
+  text-align: center; 
 }
 
 /*css for gallery*/
@@ -379,7 +370,9 @@ small {
     top: 12rem;
 }
 
-.fade-in-bottom{-webkit-animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) 1s both;animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) 1s both}
+.fade-in-bottom{
+  -webkit-animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) 1s both;animation:fade-in-bottom .6s cubic-bezier(.39,.575,.565,1.000) 1s both
+}
 
 .title h3{
     color: #4F616D;
